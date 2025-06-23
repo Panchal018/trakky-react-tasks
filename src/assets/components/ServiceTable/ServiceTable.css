@@ -1,0 +1,117 @@
+.table-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px 18px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.table-container h2 {
+  margin-bottom: 24px;
+  color: #1e293b;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* .search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+} */
+
+.service-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.service-table th,
+.service-table td {
+  padding: 16px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.service-table th {
+  background-color: #f1f5f9;
+  color: #334155;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.service-table tr {
+  transition: background 0.18s;
+}
+
+.service-table tr:hover {
+  background-color: #f0f9ff;
+  box-shadow: 0 2px 8px rgba(30, 41, 59, 0.04);
+}
+
+.hover-row {
+  cursor: pointer;
+  transition: background 0.18s, box-shadow 0.18s;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.pagination button {
+  padding: 10px 22px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.pagination button:disabled {
+  background-color: #cbd5e1;
+  color: #64748b;
+  cursor: not-allowed;
+}
+
+@media (max-width: 800px) {
+  .table-container {
+    padding: 10px;
+  }
+  .service-table th,
+  .service-table td {
+    font-size: 0.95rem;
+    padding: 10px 6px;
+  }
+}
+
+@media (max-width: 600px) {
+  .table-container {
+    padding: 4px;
+  }
+  .service-table th,
+  .service-table td {
+    font-size: 0.9rem;
+    padding: 8px 4px;
+  }
+  .pagination {
+    flex-direction: column;
+    gap: 8px;
+    align-items: stretch;
+  }
+}

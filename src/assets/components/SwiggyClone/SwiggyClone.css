@@ -1,0 +1,172 @@
+/* src/components/SwiggyClone/SwiggyClone.css */
+
+.swiggy-wrapper {
+  max-width: 430px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+.header-bar {
+  background-color: #7f1d1d;
+  color: white;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 16px 16px;
+}
+
+.location span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.location .address {
+  font-size: 0.75rem;
+  margin: 2px 0 0;
+  color: #f0f0f0;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buy-one {
+  background: #ff9800;
+  color: white;
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.search-bar input {
+  border: none;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-icon, .mic-icon {
+  color: #666;
+}
+
+.banner-carousel {
+  margin: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Category Scroller */
+.category-scroller {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.category-card {
+  min-width: 80px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.category-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 6px;
+  border: 2px solid #eee;
+}
+
+.category-card span {
+  font-size: 0.8rem;
+  color: #333;
+}
+
+/* Offers Strip */
+.offers-strip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+}
+
+.offers-strip img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.restaurant-list {
+  padding: 16px;
+}
+
+.restaurant-list h2 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.restaurant-card {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.restaurant-img {
+  width: 120px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.restaurant-info {
+  padding: 12px;
+  flex: 1;
+}
+
+.restaurant-info h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 2px 0;
+}
+
+.offer {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #d32f2f;
+  font-weight: 600;
+}
