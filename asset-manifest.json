@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/trakky-react-tasks/static/css/main.231229d0.css",
+    "main.js": "/trakky-react-tasks/static/js/main.3991d45b.js",
+    "static/js/453.a4a422cc.chunk.js": "/trakky-react-tasks/static/js/453.a4a422cc.chunk.js",
+    "index.html": "/trakky-react-tasks/index.html",
+    "main.231229d0.css.map": "/trakky-react-tasks/static/css/main.231229d0.css.map",
+    "main.3991d45b.js.map": "/trakky-react-tasks/static/js/main.3991d45b.js.map",
+    "453.a4a422cc.chunk.js.map": "/trakky-react-tasks/static/js/453.a4a422cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.231229d0.css",
+    "static/js/main.3991d45b.js"
+  ]
+}
